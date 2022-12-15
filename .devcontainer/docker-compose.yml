@@ -7,5 +7,7 @@ services:
     volumes:
       - .:/workspace:cached
       - home:/home
+    environment:
+      TZ: "Asia/Tokyo"
 volumes:
   home:
